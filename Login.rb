@@ -33,7 +33,7 @@ class Login < FXMainWindow
         if verifica(userTextField.text, passTextField.text)
             @typeuser = "Administrador"
             if (@typeuser == "Administrador")
-              mainWindow2 = Administrador.new(@app,name,userTextField.text,@typeuser+" General")
+              mainWindow2 = Administrador.new(@app,"Adain Magallanes",userTextField.text,@typeuser+" General")
               mainWindow2.create
               mainWindow2.show(PLACEMENT_SCREEN)
               self.close
