@@ -180,10 +180,10 @@ class Administrador < FXMainWindow
 
 end  
 
-app = FXApp.new  
-Administrador.new(app,"Adain Magallenes", "Guille","Administrador General")  
-app.create  
-app.run
+#app = FXApp.new  
+#Administrador.new(app,"Adain Magallenes", "Guille","Administrador General")  
+#app.create  
+#app.run
 
 
 #tx2 = FXLabel.new(groupbox, "Class:",:opts=>LAYOUT_EXPLICIT,:width=>50, :height=>20, :x=>7, :y=>165)
