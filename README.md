@@ -1,0 +1,2 @@
+# Sistema de gestión escolar en Ruby
+Proyecto escolar para la gestión simple de una escuela, usando una base de datos SQLite se pueden registrar 3 tipos de usuarios (administrador, maestro y alumno), donde los administradores tienen la capacidad de registrar tanto alumnos, maestros y otros administradores además de asignar las materias a los maestros. Los maestros por otro lado pueden inscribir alumnos a sus materias y capturar calificaciones y por último los alumnos pueden visualizar sus calificaciones.
